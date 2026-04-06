@@ -52,7 +52,7 @@ if (errors.length > 0) {
     setPrediction(null);
 
     try {
-      const res = await fetch("https://student-performance-predictor-tyk3.onrender.com//predict", {
+      const res = await fetch("https://student-performance-predictor-tyk3.onrender.com/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
